@@ -1,4 +1,13 @@
 <html>
+  <body id='canvas' bgcolor="red" >
+  <script>
+    window.onload =function(){
+      var col = ['red', 'green', 'blue', 'yellow', 'brown', 'purple'];
+      var num = Math.floor(Math.random() * 6);
+      document.getElementById('canvas').bgColor = col[num];
+    };
+  </script>
   <h1>This could have been my first page with GitHub Pages</h1>
   <p>Thanks GitHub!</p>
+  </body>
 </html>
